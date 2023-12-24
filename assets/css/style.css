@@ -39,22 +39,16 @@ section {
   border: none;
 }
 
-nav .nav-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* nav .nav-logo {
+  display: inline-block;
+} */
 
-label {
-  padding-right: 50px;
-}
-
-label .logo-img {
+ .logo-img {
   height: 30px;
   width: 30px;
 }
 
-label .logo-text {
+.logo-text {
   color: white;
   font-size: 25px;
   line-height: 80px;
@@ -63,6 +57,7 @@ label .logo-text {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 50px;
 }
 
@@ -109,6 +104,7 @@ nav .icons .btn-bars {
 }
 
 .hero {
+  position: relative;
   height: 500px;
   background-color: black;
   background-image: linear-gradient(to right, #100e95, #4b1032);
@@ -121,12 +117,11 @@ nav .icons .btn-bars {
 
 .hero .hero-text {
   position: absolute;
-  padding: 2.8rem;
   top: 50%;
   left: 40%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
 }
 .hero .hero-img{
