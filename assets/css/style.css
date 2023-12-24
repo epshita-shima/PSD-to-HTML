@@ -11,19 +11,18 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto;
-  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 section {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .row1 {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
   height: 650px;
   background-color: #000;
@@ -447,16 +446,15 @@ table {
 .latest-property {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 0 60px;
   margin-top: 30px;
+  height: 360;
 }
 .latest-property .blog1 {
   width: 55%;
   background: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 355px;
 }
 .latest-property .blog1 img {
   width: 100%;
@@ -484,7 +482,6 @@ table {
   justify-content: space-between;
   align-items: center;
   width: 45%;
-  height: 360px;
 }
 .blog2 img {
   width: 100%;
