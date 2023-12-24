@@ -631,7 +631,7 @@ align-items: center;
 color: gray;
 }
   
- @media  (min-width: 992px){
+ /* @media  (min-width: 992px){
 .container{
   width: 992px;
 }
@@ -641,7 +641,7 @@ section{
 .row1{
   width: 992px;
 }
-}
+} */
 
 /*
  @media (max-width: 952px) {
