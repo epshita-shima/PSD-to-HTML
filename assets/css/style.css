@@ -4,13 +4,14 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+ overflow-x: hidden;
 }
 body {
   font-family: montserrat;
 }
 
 .container {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,21 +113,29 @@ nav .icons .btn-bars {
   background-color: black;
   background-image: linear-gradient(to right, #100e95, #4b1032);
   margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   border: 1px solid rgb(163, 6, 6);
-  padding: 0 40px;
   border-radius: 15px;
   margin: 0 40px;
+  
 }
 
 .hero .hero-text {
+  position: absolute;
+  padding: 2.8rem;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
   font-weight: 700;
 }
-
+.hero .hero-img{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 .hero .hero-img1 {
   width: 300px;
   height: 420px;
@@ -615,7 +624,7 @@ table {
 }
 .img2{
   position: absolute;
-  left: 72%;
+  left: 75%;
 }
 footer{
 margin: 0 60px;
