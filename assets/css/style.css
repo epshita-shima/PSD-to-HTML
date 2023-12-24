@@ -7,10 +7,10 @@
 }
 body {
   font-family: montserrat;
-  overflow-x: hidden;
 }
 
 .container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
